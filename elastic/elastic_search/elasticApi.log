@@ -1,0 +1,21 @@
+2023-06-07 20:17:10,649 - INFO - Serving on http://0.0.0.0:5009
+2023-06-07 20:41:45,391 - INFO - Serving on http://0.0.0.0:5009
+2023-06-07 20:42:58,223 - INFO - Serving on http://0.0.0.0:5009
+2023-06-07 20:43:02,984 - INFO - GET http://74.235.226.249:9200/elkitem/_search?size=10000 [status:200 request:0.482s]
+2023-06-08 07:46:28,940 - INFO - Serving on http://0.0.0.0:5009
+2023-06-08 07:47:01,939 - ERROR - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-08 07:47:20,011 - ERROR - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-08 07:48:05,915 - ERROR - 'module' object is not callable
+2023-06-08 07:51:30,232 - ERROR - 'module' object is not callable
+2023-06-08 07:51:39,673 - ERROR - 'module' object is not callable
+2023-06-08 07:53:00,301 - INFO - Serving on http://0.0.0.0:5009
+2023-06-08 07:53:05,169 - INFO - GET http://74.235.226.249:9200/elkitem/_search?size=10000 [status:200 request:0.482s]
+2023-06-08 07:53:29,111 - INFO - GET http://74.235.226.249:9200/elkitem/_search?size=10000 [status:200 request:0.225s]
+2023-06-08 08:03:40,379 - INFO - Serving on http://0.0.0.0:5009
+2023-06-08 08:04:07,878 - INFO - Serving on http://0.0.0.0:5009
+2023-06-08 08:05:08,243 - INFO - GET http://74.235.226.249:9200/elkitem/_search?size=10000 [status:200 request:0.460s]
+2023-06-08 08:05:16,284 - INFO - GET http://74.235.226.249:9200/elkitem/_search?size=10000 [status:200 request:0.228s]
+2023-06-08 08:05:23,097 - INFO - GET http://74.235.226.249:9200/elkitem/_search?size=10000 [status:200 request:0.228s]
+2023-06-08 08:05:28,283 - INFO - GET http://74.235.226.249:9200/elkitem/_search?size=10000 [status:200 request:0.234s]
+2023-06-08 08:12:11,578 - INFO - Serving on http://0.0.0.0:5009
+2023-06-08 08:12:19,660 - INFO - GET http://74.235.226.249:9200/elkitem/_search?size=10000 [status:200 request:0.618s]
