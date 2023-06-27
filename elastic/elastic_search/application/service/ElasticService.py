@@ -109,11 +109,3 @@ class ElasticService:
 
 
 elastic_service = ElasticService()
-
-
-
-
-
-
-k= ElasticService().search_product_details("201816")
-print(k)
