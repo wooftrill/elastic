@@ -25,3 +25,10 @@
 2023-08-01 07:54:27,162 - ERROR - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
 2023-08-01 07:55:17,405 - INFO - GET http://104.197.228.156:9200/elkitem/_search?size=10000 [status:200 request:0.253s]
 2023-08-01 07:55:17,405 - ERROR - tuple index out of range
+2023-08-01 08:02:13,827 - INFO - Serving on http://0.0.0.0:5009
+2023-08-01 08:02:36,365 - INFO - GET http://104.197.228.156:9200/elkitem/_search?size=10000 [status:200 request:0.500s]
+2023-08-01 08:02:47,551 - INFO - GET http://104.197.228.156:9200/elkitem/_search?size=10000 [status:200 request:0.253s]
+2023-08-01 08:02:47,551 - ERROR - tuple index out of range
+2023-08-01 08:02:54,583 - INFO - GET http://104.197.228.156:9200/elkitem/_search?size=10000 [status:200 request:0.255s]
+2023-08-01 08:04:00,338 - INFO - GET http://104.197.228.156:9200/elkitem/_search?size=10000 [status:200 request:0.251s]
+2023-08-01 08:05:04,679 - INFO - GET http://104.197.228.156:9200/elkitem/_search?size=10000 [status:200 request:0.257s]
