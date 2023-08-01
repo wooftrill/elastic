@@ -7,9 +7,42 @@ logging.getLogger().setLevel(logging.INFO)
 class ElasticQuery:
 
     @staticmethod
-    def distinct_product():
-        query={
+    def distinct_subcategory():
+        query = {
             "size": 0,
+            "aggs": {
+                "distinct_subcategory_names": {
+                    "terms": {
+                        "field": "subcategory_name.keyword",
+                        "size": 10
+                    },
+                    "aggs": {
+                        "distinct_docs": {
+                            "top_hits": {
+                                "size": 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return query
+
+    @staticmethod
+    def distinct_product_wrt_subcategory_name(subcategory_name):
+        query = {
+            "size": 0,
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "term": {
+                                "subcategory_name.keyword": subcategory_name
+                            }
+                        }
+                    ]
+                }
+            },
             "aggs": {
                 "distinct_product_ids": {
                     "terms": {
@@ -17,7 +50,7 @@ class ElasticQuery:
                         "size": 10
                     },
                     "aggs": {
-                        "distinct_docs": {
+                        "top_product_hits": {
                             "top_hits": {
                                 "size": 1
                             }
@@ -51,6 +84,8 @@ class ElasticQuery:
                             }
         }
         return  query
+
+
 
 
 
